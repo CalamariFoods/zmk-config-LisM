@@ -340,6 +340,13 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="616" dy="-0.6em">&amp;mkp</tspan><tspan x="616" dy="1.2em">MB1</tspan>
 </text>
 </g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="602" y="127" width="28" height="26" class="combo"/>
+<a href="#Device-Layer">
+<text x="616" y="140" class="combo tap layer-activator">
+<tspan x="616" dy="-0.6em">Device</tspan><tspan x="616" dy="1.2em">Layer</tspan>
+</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 280)" class="layer-Mouse Layer">
@@ -527,6 +534,13 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="616" dy="-0.6em">&amp;mkp</tspan><tspan x="616" dy="1.2em">MB1</tspan>
 </text>
 </g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="602" y="127" width="28" height="26" class="combo"/>
+<a href="#Device-Layer">
+<text x="616" y="140" class="combo tap layer-activator">
+<tspan x="616" dy="-0.6em">Device</tspan><tspan x="616" dy="1.2em">Layer</tspan>
+</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 560)" class="layer-Number Layer">
@@ -734,6 +748,13 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="616" dy="-0.6em">&amp;mkp</tspan><tspan x="616" dy="1.2em">MB1</tspan>
 </text>
 </g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="602" y="127" width="28" height="26" class="combo"/>
+<a href="#Device-Layer">
+<text x="616" y="140" class="combo tap layer-activator">
+<tspan x="616" dy="-0.6em">Device</tspan><tspan x="616" dy="1.2em">Layer</tspan>
+</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 840)" class="layer-Mark Layer">
@@ -947,6 +968,13 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="616" dy="-0.6em">&amp;mkp</tspan><tspan x="616" dy="1.2em">MB1</tspan>
 </text>
 </g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="602" y="127" width="28" height="26" class="combo"/>
+<a href="#Device-Layer">
+<text x="616" y="140" class="combo tap layer-activator">
+<tspan x="616" dy="-0.6em">Device</tspan><tspan x="616" dy="1.2em">Layer</tspan>
+</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 1120)" class="layer-Device Layer">
@@ -1155,6 +1183,13 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="616" dy="-0.6em">&amp;mkp</tspan><tspan x="616" dy="1.2em">MB1</tspan>
 </text>
 </g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="602" y="127" width="28" height="26" class="combo"/>
+<a href="#Device-Layer">
+<text x="616" y="140" class="combo tap layer-activator">
+<tspan x="616" dy="-0.6em">Device</tspan><tspan x="616" dy="1.2em">Layer</tspan>
+</text>
+</a></g>
 </g>
 </g>
 <text x="758.0" y="1428.0" class="footer">LisM KEYMAPS | Created with keymap-drawer</text></svg>
