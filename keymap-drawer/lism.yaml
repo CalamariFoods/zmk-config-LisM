@@ -37,7 +37,7 @@ layers:
   - LEFT SHIFT
   - {t: SPACE, h: Mouse Layer}
   - {t: TAB, h: Number Layer}
-  - '&td_0'
+  - '&td_01'
   - {t: BS, h: Mark Layer}
   - LGUI
   - VOLUME DOWN
@@ -164,7 +164,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - SPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -199,7 +199,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&tog_ls'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - OUT TOG
@@ -207,11 +207,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR
   - Boot
+combos:
+- p: [34, 35]
+  k: Device Layer
+- p: [17, 18]
+  k: '&mkp MB1'
