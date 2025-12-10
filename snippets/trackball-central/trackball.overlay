@@ -24,7 +24,7 @@
         <&zip_xy_scaler 3 2>;   // ← XY を 1.5倍に加速;
 
     scroller {
-        layers = <5>;
+        layers = <4>;
         input-processors = 
             <&zip_xy_to_scroll_mapper>,
             <&zip_scroll_scaler 1 16>;
