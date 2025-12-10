@@ -15,21 +15,6 @@
 &lt { quick-tap-ms = <300>; };
 
 / {
-    macros {
-        emoji: emoji_macro {
-            compatible = "zmk,behavior-macro";
-            label = "EMOJI";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp CAPSLOCK>,
-                <&macro_tap>,
-                <&kp E>,
-                <&macro_release>,
-                <&kp CAPSLOCK>;
-        };
-    };
-
     behaviors {
         encoder_msc: sensor_rotate_msc {
             compatible = "zmk,behavior-sensor-rotate-var";
@@ -64,6 +49,11 @@
         mouse_click {
             bindings = <&mkp MB1>;
             key-positions = <17 18>;
+        };
+
+        scrol {
+            bindings = <&mo 5>;
+            key-positions = <27 28>;
         };
     };
 
