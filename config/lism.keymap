@@ -69,7 +69,7 @@
 &kp LCTRL  &kp LEFT_ALT  &kp LGUI  &kp LEFT_SHIFT  &lt 1 SPACE  &lt 2 TAB    &td_01  &lt 3 BACKSPACE  &kp LGUI  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &mt LEFT_WIN ESC
             >;
 
-            sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
+            sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
         };
 
         layer_1 {
@@ -102,6 +102,8 @@
 &kp LEFT_SHIFT  &trans  &trans  &trans  &kp C_VOLUME_DOWN                    &kp LG(LS(RIGHT_ARROW))  &kp HOME        &trans          &kp END          &kp LEFT_SHIFT
 &trans          &trans  &trans  &trans  &kp SPACE          &trans    &trans  &trans                   &trans          &trans          &trans           &kp PRINTSCREEN
             >;
+
+            sensor-bindings = <&encoder_kp LS(LEFT_ARROW) LS(RIGHT_ARROW)>;
         };
 
         layer_4 {
