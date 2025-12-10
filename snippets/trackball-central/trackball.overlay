@@ -21,12 +21,19 @@
     device = <&trackball_central>;
     input-processors = 
         <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
-        <&zip_xy_scaler 7 4>;   // ← XY を 1.75倍に加速;
+        <&zip_xy_scaler 2 1>;   // ← XY を 2倍に加速;
 
     scroller {
         layers = <4>;
         input-processors = 
             <&zip_xy_to_scroll_mapper>,
-            <&zip_scroll_scaler 2 16>;
+            <&zip_scroll_scaler 1 16>;
+    };
+
+    lowspeed {
+        layers = <1>;
+        input-processors = 
+            <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
+            <&zip_xy_scaler 2 2>;   // ← XY を 2倍に加速;
     };
 };
