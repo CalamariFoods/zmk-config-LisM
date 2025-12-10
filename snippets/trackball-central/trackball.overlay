@@ -21,7 +21,7 @@
     device = <&trackball_central>;
     input-processors = 
         <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
-        <&zip_xy_scaler 3 2>;   // ← XY を 1.5倍に加速;
+        <&zip_xy_scaler 7 4>;   // ← XY を 1.75倍に加速;
 
     scroller {
         layers = <4>;
