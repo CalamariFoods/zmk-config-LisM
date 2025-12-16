@@ -40,8 +40,8 @@ layers:
   - '&td_01'
   - {t: BS, h: Mark Layer}
   - LGUI
-  - VOLUME DOWN
-  - VOLUME UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ESC, h: LEFT WIN}
   Mouse Layer:
   - '1'
