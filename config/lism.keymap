@@ -62,6 +62,11 @@
             bindings = <&mo 4>;
             key-positions = <27 28>;
         };
+
+        scrol02 {
+            bindings = <&mo 4>;
+            key-positions = <7 8>;
+        };
     };
 
     keymap {
