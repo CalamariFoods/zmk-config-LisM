@@ -222,3 +222,7 @@ combos:
   k: '&mkp MB1'
 - p: [27, 28]
   k: Device Layer
+- p: [18, 19]
+  k: '&mkp MB2'
+- p: [17, 18, 19]
+  k: Device Layer
